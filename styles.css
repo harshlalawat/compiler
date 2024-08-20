@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 209, 209);
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.header-container{
+    background-color: darkred;
+    color: #fff;
+    font-family: cursive;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 5px 0;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.compiler-lang-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+select{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+option{
+    font-size: 1rem;
+}
+
+.full-editor-div{
+    width: 95%;
+    margin: 0 auto;
+    counter-reset: section;
+}
+
+textarea{
+    width: 97%;
+    resize: none;
+    border-radius: 5px;
+    box-shadow:5px 5px 10px 0.2px darkred;
+    font-size: 1.2rem;
+    border: none;
+    padding: 1.4%;
+}
+
+textarea:focus{
+    border: none;
+    outline: none;
+}
+
+#btn{
+    font-size: 1rem;
+    display: block;
+    margin: 10px 0 0 auto;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+}
+
+.output-container{
+    margin: 1% 0;
+}
+
+.output-heading{
+    margin-bottom: 5px;
+}
+
+.output-div{
+    background-color: black;
+    border-radius: 5px;
+    box-shadow:5px 5px 10px black;
+    min-height: 100px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#output{
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 0;
+}
